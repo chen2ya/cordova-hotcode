@@ -1,0 +1,31 @@
+{
+    "name": "com.cordova.hot",
+    "displayName": "cordovaHot",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^7.0.0",
+        "cordova-hot-code-push-plugin": "^1.5.3",
+        "cordova-plugin-file": "^6.0.1",
+        "cordova-plugin-file-transfer": "^1.7.1",
+        "cordova-plugin-media-capture": "^3.0.2",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "smallvideo": "git+https://github.com/zhangjianying/cordva-smallvideo.git",
+        "com.zsoftware.smallvideo": "https://github.com/zhangjianying/cordva-smallvideo.git"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-hot-code-push-plugin": {}
+           
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}
